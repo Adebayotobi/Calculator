@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box-01{
+    background-color: #272B33;
+    width: 300px;
+    height: 210px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 0 10px;
+    box-shadow: 0px 12px 17px 0px lightgray;
+    /* box-shadow: 0px 0px 14px 0px gray; */
+}
+
+
+.bt-icn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 45px;
+    padding-top: 30px;
+}
+.bt-icn1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2C2D37;
+    padding: 7px;
+    border-radius: 20px;
+}
+
+.bt-icn1 button{
+    background-color: rgba(39, 37, 37, 0.103);
+    border: none;
+    cursor: pointer;
+}
+.bt-icn i{
+    color: white;
+    
+}
+.cal-01{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 10px 5px ;
+        /* align-self: flex-end; */
+    }
+.cal-01 h3{
+    color: #FCFCFC;
+    font-size: 20px;
+    }
+    
+.cal-01 span{
+        color: #BE585A;
+    }
+
+.cal-02{
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+.cal-02 h3{
+        color: #FCFCFC;
+        font-size: 30px;
+        padding: 5px 20px 0 0;
+    }
+
+.box-02{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: .8rem;
+    width: 300px;
+    background-color: #292D36;
+    height: 370px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 11px 14px 0px rgba(173, 216, 230, 0.555);
+    padding-left: 10px;
+    }
+
+
+.box{
+    border: 1px solid gray;
+    margin: 1px;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    background-color:#2C2D37 ;
+    border: 1px #2C2D37 solid;
+}
+
+.green-me{
+    color: #279585;
+}
+
+.red-me{
+    color: #BE585A;
+}
+
